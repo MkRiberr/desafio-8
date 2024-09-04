@@ -1,0 +1,29 @@
+/* Estilo para o Box 1 */
+.box1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 80px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    width: 200px; /* Largura do conteúdo */
+    height: 150px; /* Altura do conteúdo */
+    color: white;
+    box-sizing: content-box; /* Default, incluído para clareza */
+}
+
+/* Estilo para o Box 2 */
+.box2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 200px; /* Largura do conteúdo */
+    height: 150px; /* Altura do conteúdo */
+    color: black;
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo da largura e altura */
+}
